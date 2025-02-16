@@ -1,0 +1,25 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    text-align: center;
+    padding: 20px;
+}
+.box{
+    width:100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(187, 161, 123);
+    border-radius: 8px;
+}
+@media(max-width:600px) {
+    .box{
+        background-color: rgb(93, 106, 132);
+        
+    }
+    
+}
+@media(max-width:400px){
+    .box{
+        background-color: rgb(129, 161, 98);
+    }
+}
